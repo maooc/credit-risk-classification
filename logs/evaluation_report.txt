@@ -1,0 +1,29 @@
+模型评估报告 - LogisticRegression
+============================================================
+
+样本数量: 1046
+评估时间: 2026-03-23T16:46:33.881116
+
+【基础指标】
+  准确率 (Accuracy):     0.9226
+  精确率 (Precision):    Macro=0.8980, Weighted=0.9332
+  召回率 (Recall):       Macro=0.9365, Weighted=0.9226
+  F1 分数:               Macro=0.9126, Weighted=0.9243
+  ROC AUC:               0.9470
+
+【混淆矩阵】
+  矩阵: [[659, 72], [9, 306]]
+  TN=659, FP=72
+  FN=9, TP=306
+  特异性 (Specificity): 0.9015
+  敏感性 (Sensitivity): 0.9714
+
+【分类报告】
+              precision    recall  f1-score   support
+
+           0       0.99      0.90      0.94       731
+           1       0.81      0.97      0.88       315
+
+    accuracy                           0.92      1046
+   macro avg       0.90      0.94      0.91      1046
+weighted avg       0.93      0.92      0.92      1046
